@@ -1,0 +1,16 @@
+# Fora do site publicado: ferramentas locais, originais pesados e materiais internos
+serve.ps1
+apresentacao/
+
+# Originais em alta resolução (o site usa as versões otimizadas)
+assets/*-original.*
+!assets/logo-original.jpeg
+
+# Arquivos de assets que o site não usa
+assets/fonts/
+assets/placeholder-*.svg
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
